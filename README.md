@@ -27,14 +27,11 @@
 
 This article provides the development of a 3-layer Neural Network (NN) from sratch (i.e., only using Numpy) for solving the binary MNIST dataset. This project offers a practical guide to the foundational aspects of deep learning and the architecture of neural networks. It primarily concentrates on building the network from the ground up (i.e., the mathematics running underthe hood of NNs).
 
-
 </br>
 
 ### Sync helper files from AWS S3
 
 </br>
-
-
 
 </br>
 
@@ -42,16 +39,11 @@ This article provides the development of a 3-layer Neural Network (NN) from srat
 
 </br>
 
-
-
-
 </br>
 
 ### Data visualization
 
 </br>
-
-
 
 </br>
 
@@ -59,15 +51,11 @@ This article provides the development of a 3-layer Neural Network (NN) from srat
 
 </br>
 
-
-
 </br>
 
 ### Data preparation for model training
 
 </br>
-
-
 
 </br>
 
@@ -75,22 +63,17 @@ This article provides the development of a 3-layer Neural Network (NN) from srat
 
 </br>
 
-
-
 </br>
 
 ### # Train the Neural Network
 
 </br>
 
-
 </br>
 
 ### Compute accuracy on train and test datasets
 
 </br>
-
-
 
 </br>
 
