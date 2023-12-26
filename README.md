@@ -150,6 +150,8 @@ Train accuracy: 99.65 %
 Test accuracy: 99.81 %
 ```
 
+Given that the MNIST dataset is not difficult, using only binary MNIST to distinguish between 0 and 1 makes this task even simpler. Therefore, it is no surprise to see such high accuracy on both the train and test datasets, even though the solution presented in this experiment is very simple.
+
 </br>
 
 ### Visualize misclassified elements
