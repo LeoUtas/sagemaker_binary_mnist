@@ -96,7 +96,7 @@ boto3.Session().resource("s3").Bucket(BUCKET_NAME).Object(key).upload_file("data
 
 </br>
 
-We applied the pre-defined function to prepare the binary MNIST for training the Neural Network.
+We applied a helper function to prepare the binary MNIST for training the Neural Network.
 
 ```python
 X_train, X_test, Y_train, Y_test = make_inputs(X_train_org, X_test_org, Y_train_org, Y_test_org)
@@ -108,7 +108,7 @@ X_train, X_test, Y_train, Y_test = make_inputs(X_train_org, X_test_org, Y_train_
 
 </br>
 
-To build a Neural Network, we must define helper functions as the building blocks for constructing the architecture. I will not list those functions here because they will make this README unnecessarily long. I only present the construction of the Neural Network.
+To build a Neural Network, we must define helper functions as the building blocks for constructing the architecture. I will not list those functions here because they will make this README unnecessarily long. I only present the construction of the Neural Network. For more details regarding helper functions and components of nn_Llayers_binary(), please see utils_binary.py in this repository and refer to <a href="https://github.com/LeoUtas/2-layer_neural_network.git">2-layer_neural_network</a>.
 
 ```python
 layer_dims = [784, 128, 64, 1]
