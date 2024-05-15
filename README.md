@@ -17,7 +17,7 @@
 
 </br>
 
-# Using AWS SageMaker to construct a Neural Network from scratch
+# Code a Neural Network from scratch to solve the binary MNIST problem
 
 </br>
 
